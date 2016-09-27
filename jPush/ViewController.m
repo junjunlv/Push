@@ -2,13 +2,13 @@
 //  ViewController.m
 //  jPush
 //
-//  Created by 张晓静 on 16/9/13.
+//  Created by cjcj on 16/9/13.
 //  Copyright © 2016年 jun-object-c. All rights reserved.
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "CoreJPush.h"
+@interface ViewController ()<CoreJPushProtocol>
 
 @end
 
@@ -16,12 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [CoreJPush addJPushListener:self];
+        [CoreJPush setTags:[NSSet setWithArray:@[@"movie"]] alias:@"12343242" resBlock:^(BOOL res, NSSet *tags, NSString *alias) {
+    
+            if(res){
+                NSLog(@"设置成功：%@,%@.%@",@(res),tags,alias);
+            }else{
+                NSLog(@"设置失败");
+            }
+        }];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)dealloc{
+    [CoreJPush removeJPushListener:self];
+
+}
+
+-(void)didReceiveRemoteNotification:(NSDictionary *)userInfo{
+    
+    NSLog(@"ViewController: %@",userInfo);
+    
 }
 
 @end

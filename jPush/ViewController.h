@@ -2,7 +2,7 @@
 //  ViewController.h
 //  jPush
 //
-//  Created by 张晓静 on 16/9/13.
+//  Created by cjcj on 16/9/13.
 //  Copyright © 2016年 jun-object-c. All rights reserved.
 //
 

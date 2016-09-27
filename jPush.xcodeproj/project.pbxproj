@@ -15,6 +15,15 @@
 		DA20BA331D87D7C1005F48A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA20BA311D87D7C1005F48A0 /* LaunchScreen.storyboard */; };
 		DA20BA3E1D87D7C1005F48A0 /* jPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA20BA3D1D87D7C1005F48A0 /* jPushTests.m */; };
 		DA20BA491D87D7C1005F48A0 /* jPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA20BA481D87D7C1005F48A0 /* jPushUITests.m */; };
+		DA20BA791D87DA3A005F48A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA561D87D7EC005F48A0 /* CFNetwork.framework */; };
+		DA20BA7A1D87DA45005F48A0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA581D87D7F7005F48A0 /* CoreFoundation.framework */; };
+		DA20BA7B1D87DA51005F48A0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA5A1D87D804005F48A0 /* CoreTelephony.framework */; };
+		DA20BA7C1D87DA5E005F48A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA5C1D87D817005F48A0 /* SystemConfiguration.framework */; };
+		DA20BA7D1D87DA66005F48A0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA641D87D857005F48A0 /* Security.framework */; };
+		DA20BA7E1D87DA71005F48A0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA20BA661D87D869005F48A0 /* libz.tbd */; };
+		DA225BB01D87E3680041E343 /* AppDelegate+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = DA225BA81D87E3680041E343 /* AppDelegate+JPush.m */; };
+		DA225BB11D87E3680041E343 /* CoreJPush.m in Sources */ = {isa = PBXBuildFile; fileRef = DA225BAC1D87E3680041E343 /* CoreJPush.m */; };
+		DA225BB21D87E3680041E343 /* jpush-ios-2.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA225BAE1D87E3680041E343 /* jpush-ios-2.1.6.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,22 @@
 		DA20BA441D87D7C1005F48A0 /* jPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA20BA481D87D7C1005F48A0 /* jPushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jPushUITests.m; sourceTree = "<group>"; };
 		DA20BA4A1D87D7C1005F48A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA20BA561D87D7EC005F48A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DA20BA581D87D7F7005F48A0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DA20BA5A1D87D804005F48A0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DA20BA5C1D87D817005F48A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DA20BA5E1D87D829005F48A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA20BA601D87D835005F48A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA20BA641D87D857005F48A0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA20BA661D87D869005F48A0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DA225BA71D87E3680041E343 /* AppDelegate+JPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JPush.h"; sourceTree = "<group>"; };
+		DA225BA81D87E3680041E343 /* AppDelegate+JPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JPush.m"; sourceTree = "<group>"; };
+		DA225BA91D87E3680041E343 /* CoreJPushProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreJPushProtocol.h; sourceTree = "<group>"; };
+		DA225BAA1D87E3680041E343 /* CoreJPushSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreJPushSingleton.h; sourceTree = "<group>"; };
+		DA225BAB1D87E3680041E343 /* CoreJPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreJPush.h; sourceTree = "<group>"; };
+		DA225BAC1D87E3680041E343 /* CoreJPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreJPush.m; sourceTree = "<group>"; };
+		DA225BAE1D87E3680041E343 /* jpush-ios-2.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.6.a"; sourceTree = "<group>"; };
+		DA225BAF1D87E3680041E343 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA20BA7E1D87DA71005F48A0 /* libz.tbd in Frameworks */,
+				DA225BB21D87E3680041E343 /* jpush-ios-2.1.6.a in Frameworks */,
+				DA20BA7D1D87DA66005F48A0 /* Security.framework in Frameworks */,
+				DA20BA7C1D87DA5E005F48A0 /* SystemConfiguration.framework in Frameworks */,
+				DA20BA7B1D87DA51005F48A0 /* CoreTelephony.framework in Frameworks */,
+				DA20BA7A1D87DA45005F48A0 /* CoreFoundation.framework in Frameworks */,
+				DA20BA791D87DA3A005F48A0 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,8 @@
 		DA20BA171D87D7C1005F48A0 = {
 			isa = PBXGroup;
 			children = (
+				DA225BA51D87E3680041E343 /* CoreJPush */,
+				DA20BA781D87D9F4005F48A0 /* FrameWork */,
 				DA20BA221D87D7C1005F48A0 /* jPush */,
 				DA20BA3C1D87D7C1005F48A0 /* jPushTests */,
 				DA20BA471D87D7C1005F48A0 /* jPushUITests */,
@@ -138,6 +172,53 @@
 				DA20BA4A1D87D7C1005F48A0 /* Info.plist */,
 			);
 			path = jPushUITests;
+			sourceTree = "<group>";
+		};
+		DA20BA781D87D9F4005F48A0 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				DA20BA661D87D869005F48A0 /* libz.tbd */,
+				DA20BA641D87D857005F48A0 /* Security.framework */,
+				DA20BA601D87D835005F48A0 /* Foundation.framework */,
+				DA20BA5E1D87D829005F48A0 /* CoreGraphics.framework */,
+				DA20BA5C1D87D817005F48A0 /* SystemConfiguration.framework */,
+				DA20BA5A1D87D804005F48A0 /* CoreTelephony.framework */,
+				DA20BA581D87D7F7005F48A0 /* CoreFoundation.framework */,
+				DA20BA561D87D7EC005F48A0 /* CFNetwork.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		DA225BA51D87E3680041E343 /* CoreJPush */ = {
+			isa = PBXGroup;
+			children = (
+				DA225BA61D87E3680041E343 /* Common */,
+				DA225BAB1D87E3680041E343 /* CoreJPush.h */,
+				DA225BAC1D87E3680041E343 /* CoreJPush.m */,
+				DA225BAD1D87E3680041E343 /* Lib */,
+			);
+			name = CoreJPush;
+			path = jPush/CoreJPush;
+			sourceTree = "<group>";
+		};
+		DA225BA61D87E3680041E343 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA225BA71D87E3680041E343 /* AppDelegate+JPush.h */,
+				DA225BA81D87E3680041E343 /* AppDelegate+JPush.m */,
+				DA225BA91D87E3680041E343 /* CoreJPushProtocol.h */,
+				DA225BAA1D87E3680041E343 /* CoreJPushSingleton.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DA225BAD1D87E3680041E343 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DA225BAE1D87E3680041E343 /* jpush-ios-2.1.6.a */,
+				DA225BAF1D87E3680041E343 /* JPUSHService.h */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA225BB11D87E3680041E343 /* CoreJPush.m in Sources */,
 				DA20BA2B1D87D7C1005F48A0 /* ViewController.m in Sources */,
 				DA20BA281D87D7C1005F48A0 /* AppDelegate.m in Sources */,
 				DA20BA251D87D7C1005F48A0 /* main.m in Sources */,
+				DA225BB01D87E3680041E343 /* AppDelegate+JPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +496,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = jPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/jPush/CoreJPush/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = toYangToSimple.jPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/CoreJPush/Lib /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include";
 			};
 			name = Debug;
 		};
@@ -424,10 +514,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = jPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/jPush/CoreJPush/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = toYangToSimple.jPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/CoreJPush/Lib /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include";
 			};
 			name = Release;
 		};
@@ -498,6 +595,7 @@
 				DA20BA4F1D87D7C1005F48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA20BA501D87D7C1005F48A0 /* Build configuration list for PBXNativeTarget "jPushTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +604,7 @@
 				DA20BA521D87D7C1005F48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA20BA531D87D7C1005F48A0 /* Build configuration list for PBXNativeTarget "jPushUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +613,7 @@
 				DA20BA551D87D7C1005F48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
